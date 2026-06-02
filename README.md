@@ -1,0 +1,2 @@
+# AIAppDev_template
+AIアプリ開発のREADME兼メモのテンプレ
