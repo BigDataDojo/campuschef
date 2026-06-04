@@ -77,6 +77,16 @@ AIアプリ開発のREADME兼メモ
 
 ## セットアップ方法
 
+### Git環境の構築
+
+1. コンテナに入る：`docker compose exec サービス名 bash`
+1. テンプレリポジトリをmainという名前でクローンする：`git clone http://github.com/BigDataDojo/AIAppDev_template main`
+1. mainディレクトリに移動する：`cd main`
+1. READMEを更新する
+1. アプリ名のリモートリポジトリを作り，紐づける：`git remote set-url origin リポジトリのURL（SSH版）`
+1. ステコミプッシュ：`git add README.md` -> `git commit -m "README追加"` -> `git push origin main`
+1. 今後の作業は，mainディレクトリで行う（モデルリポジトリのクローンなど）
+
 ### 必要なライブラリのインストール
 
 ```bash
