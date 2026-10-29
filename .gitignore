@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Datasets
+data/
+datasets/
+*.cache
+
+# Training and inference outputs
+runs/
+outputs/
+grounding_*/
+synthetic_fridge/
+
+# Local original image directory
+img/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+README_backup.md
